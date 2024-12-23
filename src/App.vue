@@ -18,12 +18,11 @@ const tabs =
 	<body>
 		<div id="terminal" class="terminal">
 			<header>
-				<h2 class="title">guest@portfolio</h2>
+				<div>
+					<span style="color: #B982B6;">guest</span>@<span style="color: #FFFF34;">portfolio</span>
+				</div>
 				<section>
-					<!-- <button>Tab a</button>
-					<button>Tab b</button>
-					<button>Tab c</button> -->
-					<button
+					<button class="tab-button"
 					v-for="(_, tab) in tabs"
 						:key="tab"
 						:class="['tab-button', { active: current_tab === tab }]"
@@ -40,6 +39,11 @@ const tabs =
 
 <style scoped>
 
+*
+{
+	font-family: Consolas,monaco,monospace;
+}
+
 h2
 {
 	text-align: center;
@@ -47,10 +51,16 @@ h2
 
 .terminal header
 {
-	background-color: grey;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	justify-content: center;
+	background-color: #2e2e2e;
 	width: 100%;
-	border-bottom: 3px solid red;
-
+	padding: 3px;
+	border-bottom: 3px solid white;
+	color: white;
 }
 
 .terminal header section
@@ -59,14 +69,23 @@ h2
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	background-color: green;
 	gap: 10px;
 	width: 100%;
 	padding: 10px;
 }
-.terminal header section button
+
+.tab-button
 {
-	width: 33%;
+	background-color: #201F1F;
+	width: 50%;
+	padding: 6px;
+	border: none;
+	color: white;
+}
+
+.tab-button:hover
+{
+	background-color: #343434;
 }
 
 .terminal
@@ -79,8 +98,7 @@ h2
 	width: 70%;
 	height: 100%;
 	margin: 100px;
-	border: 3px solid red;
-
+	border: 3px solid white;
 }
 
 body
@@ -90,7 +108,7 @@ body
 	justify-content: center;
 	align-items: center;
 	background-color: black;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	width: 100vw;
 	height: 100vh;
 }

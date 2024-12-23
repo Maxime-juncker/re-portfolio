@@ -57,7 +57,7 @@
 	flex-direction: column;
 	justify-content: left;
 	align-items: start;
-	border: 3px solid yellow;
+	/* border: 3px solid yellow; */
 }
 
 .info-panel
