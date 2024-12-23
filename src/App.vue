@@ -6,7 +6,7 @@ import { ref } from 'vue';
 
 const current_tab = ref("tabA");
 
-const tabs = 
+const tabs =
 {
 	tabA,
 	tabB
@@ -75,7 +75,7 @@ h2
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
-	background-color: blue;
+	background-color: #1f1f1f;
 	width: 70%;
 	height: 100%;
 	margin: 100px;
