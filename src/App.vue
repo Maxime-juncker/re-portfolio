@@ -120,7 +120,7 @@ body
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-image: url("src/assets/screens.png");
+	background-image: url("src/assets/screens.webp");
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 100vw;
