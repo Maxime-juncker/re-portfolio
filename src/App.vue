@@ -1,15 +1,15 @@
 <script setup>
-import tabA from './components/tabA.vue';
-import tabB from './components/tabB.vue';
+import resume from './components/resume_tab.vue';
+import project from './components/project_tab.vue';
 
 import { ref } from 'vue';
 
-const current_tab = ref("tabA");
+const current_tab = ref("resume");
 
 const tabs =
 {
-	tabA,
-	tabB
+	resume,
+	project
 }
 
 </script>
@@ -17,7 +17,7 @@ const tabs =
 <template>
 	<body>
 		<div id="terminal" class="terminal">
-			<header>
+			<header class="term-header">
 				<div>
 					<span style="color: #B982B6;">guest</span>@<span style="color: #FFFF34;">portfolio</span>
 				</div>
@@ -32,12 +32,14 @@ const tabs =
 				</button>
 				</section>
 			</header>
-	  <component :is="tabs[current_tab]" class="tab"></component>
+			<div class="tab-container">
+				<component :is="tabs[current_tab]" class="tab"></component>
+			</div>
 	   </div>
 	</body>
 </template>
 
-<style scoped>
+<style>
 
 *
 {
@@ -49,21 +51,21 @@ h2
 	text-align: center;
 }
 
-.terminal header
+.term-header
 {
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
 	justify-content: center;
-	background-color: #2e2e2e;
+	background-color: #202020ab;
 	width: 100%;
 	padding: 3px;
 	border-bottom: 3px solid white;
 	color: white;
 }
 
-.terminal header section
+.term-header section
 {
 	display: flex;
 	flex-direction: row;
@@ -78,9 +80,11 @@ h2
 {
 	background-color: #201F1F;
 	width: 50%;
-	padding: 6px;
+	padding-inline: 6px;
+	padding-block: 9px;
 	border: none;
 	color: white;
+	font-size: 18px;
 }
 
 .tab-button:hover
@@ -94,11 +98,20 @@ h2
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
-	background-color: #1f1f1f;
+	background-color: #00000071;
+	backdrop-filter: blur(10px);
 	width: 70%;
 	height: 100%;
-	margin: 100px;
 	border: 3px solid white;
+	max-height: 100%;
+
+}
+
+.tab-container
+{
+	overflow-y: scroll;
+	width: 100%;
+	max-height: 100%;
 }
 
 body
@@ -107,10 +120,44 @@ body
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: black;
+	/* background-color: black; */
+	border-image: fill;
+	background-image: url("src/assets/bg-tmp.png");
 	/* border: 1px solid red; */
 	width: 100vw;
 	height: 100vh;
+	padding-block: 4%;
+
 }
+
+.tab
+{
+	padding: 1.5%;
+	font-size: small;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: start;
+	color: white;
+}
+
+.cursor
+{
+	animation: blinking 1.5s linear infinite;
+}
+
+@keyframes blinking
+{
+	0%, 50%
+	{
+		opacity: 100%;
+	}
+	51%, 100%
+	{
+		opacity: 0%;
+	}
+}
+
 
 </style>
