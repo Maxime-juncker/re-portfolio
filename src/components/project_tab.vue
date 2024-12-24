@@ -7,14 +7,14 @@
 	<div class="tab">
 		<div>
 			<span>~/</span>
-			<span style="color: #DC6E47;">mjuncker</span>
+			<span style="color: #B982B6;">mjuncker</span>
 			<span>/</span>
 			<span style="color: #53C3F3;">home</span>/>
 			<span>cd 42_projects && ls</span>
 		</div>
 		<div>
 			<span>~/</span>
-			<span style="color: #DC6E47;">mjuncker</span>
+			<span style="color: #B982B6;">mjuncker</span>
 			<span>/</span>
 			<span style="color: #53C3F3;">home</span>
 			<span>/</span>
@@ -53,7 +53,7 @@
 
 		<div>
 			<span>~/</span>
-			<span style="color: #DC6E47;">mjuncker</span>
+			<span style="color: #B982B6;">mjuncker</span>
 			<span>/</span>
 			<span style="color: #53C3F3;">home</span>
 			<span>/</span>
@@ -63,7 +63,7 @@
 
 		<div>
 			<span>~/</span>
-			<span style="color: #DC6E47;">mjuncker</span>
+			<span style="color: #B982B6;">mjuncker</span>
 			<span>/</span>
 			<span style="color: #53C3F3;">home</span>/>
 			<span>cd solo_projects && ls</span>
@@ -71,7 +71,7 @@
 
 		<div>
 			<span>~/</span>
-			<span style="color: #DC6E47;">mjuncker</span>
+			<span style="color: #B982B6;">mjuncker</span>
 			<span>/</span>
 			<span style="color: #53C3F3;">home</span>
 			<span>/</span>
@@ -93,7 +93,7 @@
 
 		<div>
 			<span>~/</span>
-			<span style="color: #DC6E47;">mjuncker</span>
+			<span style="color: #B982B6;">mjuncker</span>
 			<span>/</span>
 			<span style="color: #53C3F3;">home</span>
 			<span>/</span>
@@ -104,7 +104,6 @@
 </template>
 
 <style scoped>
-
 
 .project-42
 {

@@ -109,7 +109,7 @@ h2
 
 .tab-container
 {
-	overflow-y: scroll;
+	overflow-y:auto;
 	width: 100%;
 	max-height: 100%;
 }
@@ -120,7 +120,7 @@ body
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-image: url("src/assets/screens.webp");
+	background-image: url("/screens.webp");
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 100vw;

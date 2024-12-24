@@ -2,7 +2,7 @@
 	<section>
 		<div>
 			<span>~/</span>
-			<span style="color: #DC6E47;">mjuncker</span>
+			<span style="color: #B982B6;">mjuncker</span>
 			<span>/</span>
 			<span style="color: #53C3F3;">home</span>/>
 			<span>cat contact.txt</span>
@@ -16,7 +16,7 @@
 
 		<div>
 			<span>~/</span>
-			<span style="color: #DC6E47;">mjuncker</span>
+			<span style="color: #B982B6;">mjuncker</span>
 			<span>/</span>
 			<span style="color: #53C3F3;">home</span>/>
 			<span class="cursor">_</span>
