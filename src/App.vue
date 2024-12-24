@@ -1,7 +1,7 @@
 <script setup>
 import resume from './components/resume_tab.vue';
 import project from './components/project_tab.vue';
-
+import contact from './components/contact_tab.vue';
 import { ref } from 'vue';
 
 const current_tab = ref("resume");
@@ -9,7 +9,8 @@ const current_tab = ref("resume");
 const tabs =
 {
 	resume,
-	project
+	project,
+	contact
 }
 
 </script>
@@ -19,7 +20,7 @@ const tabs =
 		<div id="terminal" class="terminal">
 			<header class="term-header">
 				<div>
-					<span style="color: #B982B6;">guest</span>@<span style="color: #FFFF34;">portfolio</span>
+					<span style="color: #DC6E47;">guest</span>@<span style="color: #FFFF34;">portfolio</span>
 				</div>
 				<section>
 					<button class="tab-button"
@@ -79,7 +80,7 @@ h2
 .tab-button
 {
 	background-color: #201F1F;
-	width: 50%;
+	width: 33%;
 	padding-inline: 6px;
 	padding-block: 9px;
 	border: none;
@@ -104,7 +105,6 @@ h2
 	height: 100%;
 	border: 3px solid white;
 	max-height: 100%;
-
 }
 
 .tab-container
@@ -120,13 +120,12 @@ body
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	/* background-color: black; */
-	border-image: fill;
-	background-image: url("src/assets/bg-tmp.png");
-	/* border: 1px solid red; */
+	background-image: url("src/assets/screens.png");
+	background-position: center;
+	background-repeat: no-repeat;
 	width: 100vw;
 	height: 100vh;
-	padding-block: 4%;
+	padding-block: 2%;
 
 }
 

@@ -7,14 +7,14 @@
 	<div class="tab">
 		<div>
 			<span>~/</span>
-			<span style="color: #B982B6;">mjuncker</span>
+			<span style="color: #DC6E47;">mjuncker</span>
 			<span>/</span>
 			<span style="color: #53C3F3;">home</span>/>
 			<span>cd 42_projects && ls</span>
 		</div>
 		<div>
 			<span>~/</span>
-			<span style="color: #B982B6;">mjuncker</span>
+			<span style="color: #DC6E47;">mjuncker</span>
 			<span>/</span>
 			<span style="color: #53C3F3;">home</span>
 			<span>/</span>
@@ -36,13 +36,11 @@
 		<lstElt42
 		-str1="Born2beroot" -str2="validé" -str3="28 Nov 2024" -str4="100/100" -str5="..."/>
 		<lstElt42
-		-str1="exam02" -str2="validé" -str3="12 Déc 2024" -str4="100/100" -str5="..."/>
+		-str1="ft_printf" -str2="validé" -str3="23 Nov 2024" -str4="100/100"
+		-str5="https://github.com/Maxime-juncker/ft_printf" -link_class="link"/>
 		<lstElt42
 		-str1="fract-ol" -str2="en cours" -str3="NaN" -str4="NaN"
 		-str5="https://github.com/Maxime-juncker/fractol" -link_class="link"/>
-		<lstElt42
-		-str1="ft_printf" -str2="validé" -str3="23 Nov 2024" -str4="100/100"
-		-str5="https://github.com/Maxime-juncker/ft_printf" -link_class="link"/>
 		<lstElt42
 		-str1="minitalk" -str2="en cours" -str3="NaN" -str4="NaN"
 		-str5="https://github.com/Maxime-juncker/minitalk" -link_class="link"/>
@@ -51,14 +49,11 @@
 		-str5="https://github.com/Maxime-juncker/push_swap" -link_class="link"/>
 		<lstElt42
 		-str1="Alone in the Dark" -str2="validé" -str3="29 Nov 2024" -str4="65/100" -str5="..."/>
-		<lstElt42
-		-str1="ft_shmup" -str2="echec" -str3="06 dec 2024" -str4="0/100"
-		-str5="https://github.com/Maxime-juncker/ft_shmup" -link_class="link"/>
 		<p><br></p>
 
 		<div>
 			<span>~/</span>
-			<span style="color: #B982B6;">mjuncker</span>
+			<span style="color: #DC6E47;">mjuncker</span>
 			<span>/</span>
 			<span style="color: #53C3F3;">home</span>
 			<span>/</span>
@@ -68,7 +63,7 @@
 
 		<div>
 			<span>~/</span>
-			<span style="color: #B982B6;">mjuncker</span>
+			<span style="color: #DC6E47;">mjuncker</span>
 			<span>/</span>
 			<span style="color: #53C3F3;">home</span>/>
 			<span>cd solo_projects && ls</span>
@@ -76,7 +71,7 @@
 
 		<div>
 			<span>~/</span>
-			<span style="color: #B982B6;">mjuncker</span>
+			<span style="color: #DC6E47;">mjuncker</span>
 			<span>/</span>
 			<span style="color: #53C3F3;">home</span>
 			<span>/</span>
@@ -92,13 +87,13 @@
 		-str1="Maximatron" -str2="app de prise de note" -str3="15 Nov 2023" -str4="c#"
 		-str5="https://github.com/Maxime-juncker/Maximatron" -link_class="link"/>
 		<lstElt42
-		-str1="Vulkouch" -str2="concours de la nsi (2nd)" -str3="6 Mar 2024" -str4="c++"
+		-str1="Vulkouch" -str2="implementation de Vulkan" -str3="6 Mar 2024" -str4="c++"
 		-str5="https://github.com/Maxime-juncker/Vulkouch" -link_class="link"/>
 		<p><br></p>
 
 		<div>
 			<span>~/</span>
-			<span style="color: #B982B6;">mjuncker</span>
+			<span style="color: #DC6E47;">mjuncker</span>
 			<span>/</span>
 			<span style="color: #53C3F3;">home</span>
 			<span>/</span>
@@ -109,6 +104,7 @@
 </template>
 
 <style scoped>
+
 
 .project-42
 {

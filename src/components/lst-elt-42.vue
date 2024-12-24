@@ -11,7 +11,7 @@ defineProps({
 
 <template>
 	<section class="list-elt">
-		<p style="color: #B982B6;">{{ Str1 }}</p>
+		<p style="color: #DC6E47;">{{ Str1 }}</p>
 		<p style="color: #5EFF68;">{{ Str2 }}</p>
 		<p style="color: #53C3F3;">{{ Str3 }}</p>
 		<p style="color: #5EFF68;">{{ Str4 }}</p>
