@@ -71,4 +71,12 @@ pre
     white-space: pre;
 }
 
+
+@media (max-width: 1000px)
+{
+	.info-panel
+	{
+		flex-direction: column;
+	}
+}
 </style>

@@ -9,7 +9,8 @@
 		</div>
 		<p><br></p>
 		<a href="https://mail.google.com/mail/?view=cm&to=junck.maxime@gmail.com" target="_blank" rel="noopener noreferrer">email: junck.maxime@gmail.com</a>
-		<a href="https://github.com/Maxime-juncker">github: https://github.com/Maxime-juncker</a>
+		<a href="https://github.com/Maxime-juncker" target="_blank" rel="noopener noreferrer">github: https://github.com/Maxime-juncker</a>
+		<a href="CV.pdf" target="_blank" rel="noopener noreferrer">télécharger mon CV</a>
 		<a>tel: 0771790061</a>
 
 		<p><br></p>

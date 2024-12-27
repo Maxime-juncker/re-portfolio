@@ -158,5 +158,19 @@ body
 	}
 }
 
+@media (max-width: 1000px)
+{
+	.terminal
+	{
+		width: 100%;
+	}
+
+	body
+	{
+		padding: 0;
+		height: 100vh;
+		overflow-y: hidden;
+	}
+}
 
 </style>

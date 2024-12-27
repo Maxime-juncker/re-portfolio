@@ -52,4 +52,12 @@ defineProps({
 	{
 		text-decoration: underline;
 	}
+
+	@media (max-width: 1000px)
+	{
+		.list-elt
+		{
+			grid-template-columns: 30% 40% 30% 20% 80%;
+		}
+	}
 </style>
