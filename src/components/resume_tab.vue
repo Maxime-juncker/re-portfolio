@@ -78,5 +78,12 @@ pre
 	{
 		flex-direction: column;
 	}
+
+	pre
+	{
+		font-size: 3vw;
+		line-height: 1.2;
+		white-space: pre;
+	}
 }
 </style>

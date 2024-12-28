@@ -120,9 +120,10 @@ body
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-image: url("/screens.webp");
+	background-image: url("/bg-tmp.webp");
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
 	width: 100vw;
 	height: 100vh;
 	padding-block: 2%;
@@ -132,7 +133,7 @@ body
 .tab
 {
 	padding: 1.5%;
-	font-size: small;
+	font-size: medium;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -160,6 +161,11 @@ body
 
 @media (max-width: 1000px)
 {
+	.tab
+	{
+		font-size: 3vw;
+	}
+
 	.terminal
 	{
 		width: 100%;
@@ -169,7 +175,6 @@ body
 	{
 		padding: 0;
 		height: 100vh;
-		overflow-y: hidden;
 	}
 }
 

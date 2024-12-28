@@ -58,6 +58,7 @@ defineProps({
 		.list-elt
 		{
 			grid-template-columns: 30% 40% 30% 20% 80%;
+			gap: 15%;
 		}
 	}
 </style>
