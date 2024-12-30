@@ -120,7 +120,7 @@ body
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-image: url("/bg-tmp.webp");
+	background-image: url("/bg.webp");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
