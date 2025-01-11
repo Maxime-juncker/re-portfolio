@@ -39,10 +39,10 @@
 		-str1="ft_printf" -str2="validé" -str3="23 Nov 2024" -str4="100/100"
 		-str5="https://github.com/Maxime-juncker/ft_printf" -link_class="link"/>
 		<lstElt42
-		-str1="fract-ol" -str2="en cours" -str3="NaN" -str4="NaN"
+		-str1="fract-ol" -str2="validé" -str3="06 Jan 2025" -str4="116/100"
 		-str5="https://github.com/Maxime-juncker/fractol" -link_class="link"/>
 		<lstElt42
-		-str1="minitalk" -str2="en cours" -str3="NaN" -str4="NaN"
+		-str1="minitalk" -str2="validé" -str3="10 Jan 2025" -str4="125/100"
 		-str5="https://github.com/Maxime-juncker/minitalk" -link_class="link"/>
 		<lstElt42
 		-str1="push_swap" -str2="en cours" -str3="NaN" -str4="NaN"
