@@ -45,10 +45,17 @@
 		-str1="minitalk" -str2="validé" -str3="10 Jan 2025" -str4="125/100"
 		-str5="https://github.com/Maxime-juncker/minitalk" -link_class="link"/>
 		<lstElt42
-		-str1="push_swap" -str2="en cours" -str3="NaN" -str4="NaN"
+		-str1="push_swap" -str2="validé" -str3="16 Jan 2025" -str4="100/100"
 		-str5="https://github.com/Maxime-juncker/push_swap" -link_class="link"/>
 		<lstElt42
 		-str1="Alone in the Dark" -str2="validé" -str3="29 Nov 2024" -str4="65/100" -str5="..."/>
+		<lstElt42
+		-str1="philosophers" -str2="en cours" -str3="18 Jan 2025" -str4="NaN"
+		-str5="https://github.com/Maxime-juncker/philosophers" -link_class="link"/>
+		<lstElt42
+		-str1="minishell" -str2="en cours" -str3="NaN" -str4="NaN"
+		-str5="..." -link_class="link"/>
+
 		<p><br></p>
 
 		<div>
