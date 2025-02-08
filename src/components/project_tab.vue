@@ -53,8 +53,8 @@
 		-str1="philosophers" -str2="en cours" -str3="18 Jan 2025" -str4="NaN"
 		-str5="https://github.com/Maxime-juncker/philosophers" -link_class="link"/>
 		<lstElt42
-		-str1="minishell" -str2="en cours" -str3="NaN" -str4="NaN"
-		-str5="..." -link_class="link"/>
+		-str1="minishell" -str2="en cours" -str3="29 Jan 2025" -str4="NaN"
+		-str5="https://github.com/Maxime-juncker/Minishell" -link_class="link"/>
 
 		<p><br></p>
 
@@ -87,6 +87,12 @@
 		<p><br></p>
 		<lstElt42 -str1="name" -str2="desc" -str3="last_updated" -str4="language" -str5="link"/>
 		<lstElt42 -str1="----" -str2="----" -str3="----" -str4="----" -str5="----"/>
+		<lstElt42
+		-str1="libunit" -str2="tester c++ modulaire" -str3="28 Jan 2025" -str4="c++"
+		-str5="https://github.com/Maxime-juncker/better-libunit.git" -link_class="link"/>
+		<lstElt42
+		-str1="push swap tester" -str2="tester" -str3="20 Jan 2025" -str4="c"
+		-str5="https://github.com/Maxime-juncker/push_swap_tester" -link_class="link"/>
 		<lstElt42
 		-str1="HumanSI" -str2="concours de la nsi (2nd)" -str3="18 Nov 2023" -str4="python"
 		-str5="https://github.com/Maxime-juncker/HumanSI" -link_class="link"/>
