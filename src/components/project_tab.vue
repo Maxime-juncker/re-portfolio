@@ -34,8 +34,6 @@
 		-str1="ft_printf" -str2="validé" -str3="23 Nov 2024" -str4="100/100"
 		-str5="https://github.com/Maxime-juncker/ft_printf" -link_class="link"/>
 		<lstElt42
-		-str1="Born2beroot" -str2="validé" -str3="28 Nov 2024" -str4="100/100" -str5="..."/>
-		<lstElt42
 		-str1="ft_printf" -str2="validé" -str3="23 Nov 2024" -str4="100/100"
 		-str5="https://github.com/Maxime-juncker/ft_printf" -link_class="link"/>
 		<lstElt42
@@ -48,13 +46,14 @@
 		-str1="push_swap" -str2="validé" -str3="16 Jan 2025" -str4="100/100"
 		-str5="https://github.com/Maxime-juncker/push_swap" -link_class="link"/>
 		<lstElt42
-		-str1="Alone in the Dark" -str2="validé" -str3="29 Nov 2024" -str4="65/100" -str5="..."/>
-		<lstElt42
-		-str1="philosophers" -str2="en cours" -str3="18 Jan 2025" -str4="NaN"
+		-str1="philosophers" -str2="validé" -str3="31 Mar 2025" -str4="100/100"
 		-str5="https://github.com/Maxime-juncker/philosophers" -link_class="link"/>
 		<lstElt42
-		-str1="minishell" -str2="en cours" -str3="29 Jan 2025" -str4="NaN"
+		-str1="minishell" -str2="validé" -str3="24 Mar 2025" -str4="125/100"
 		-str5="https://github.com/Maxime-juncker/Minishell" -link_class="link"/>
+		<lstElt42
+		-str1="miniRT" -str2="validé" -str3="07 Mai 2025" -str4="125/100"
+		-str5="https://github.com/abidolet/miniRT" -link_class="link"/>
 
 		<p><br></p>
 

@@ -11,11 +11,11 @@ defineProps({
 
 <template>
 	<section class="list-elt">
-		<p style="color: #B982B6;">{{ Str1 }}</p>
+		<p style="color: #FF5E5E;">{{ Str1 }}</p>
 		<p style="color: #5EFF68;">{{ Str2 }}</p>
 		<p style="color: #53C3F3;">{{ Str3 }}</p>
 		<p style="color: #5EFF68;">{{ Str4 }}</p>
-		<a style="color: #FF5E5E;" :class="Link_class" :href="Str5" target="_blank" rel="noopener noreferrer">{{ Str5 }}</a>
+		<a style="color: #B982B6;" :class="Link_class" :href="Str5" target="_blank" rel="noopener noreferrer">{{ Str5 }}</a>
 	</section>
 </template>
 
