@@ -10,6 +10,15 @@
 			<span style="color: #B982B6;">mjuncker</span>
 			<span>/</span>
 			<span style="color: #53C3F3;">home</span>/>
+			<span>cat infos.txt</span>
+		</div>
+		<span>Pour plus d'infos sur les projets, clicker sur le liens github.</span>
+		<p><br></p>
+		<div>
+			<span>~/</span>
+			<span style="color: #B982B6;">mjuncker</span>
+			<span>/</span>
+			<span style="color: #53C3F3;">home</span>/>
 			<span>cd 42_projects && ls</span>
 		</div>
 		<div>
